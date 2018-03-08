@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^\/y([0-9]+)(.*)-c(manurially)([0-9]+)\/$ ?manurially$4=$1&%{QUERY_STRING}[L]
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+RewriteRule ^([0-9]+)\/(bhakta)\/([0-9]+)_(.*).jp$ ?bhakta$3=$1&%{QUERY_STRING}[L]
+</IfModule>

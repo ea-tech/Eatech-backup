@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'Agenda-Medium';
+  src: url('../fonts/agenda/Agenda-Medium.eot'); 
+  src: url('../fonts/agenda/Agenda-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/agenda/Agenda-Medium.woff2') format('woff2'), 
+       url('../fonts/agenda/Agenda-Medium.woff') format('woff'), 
+       url('../fonts/agenda/Agenda-Medium.ttf')  format('truetype'), 
+       url('../fonts/agenda/Agenda-Medium.svg#svgFontName') format('svg'); 
+}
+@font-face {
+  font-family: 'Agenda-Bold';
+  src: url('../fonts/agenda/Agenda-Bold.eot'); 
+  src: url('../fonts/agenda/Agenda-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/agenda/Agenda-Bold.woff2') format('woff2'), 
+       url('../fonts/agenda/Agenda-Bold.woff') format('woff'), 
+       url('../fonts/agenda/Agenda-Bold.ttf')  format('truetype'), 
+       url('../fonts/agenda/Agenda-Bold.svg#svgFontName') format('svg'); 
+}
+@font-face {
+  font-family: 'Agenda-Light';
+  src: url('../fonts/agenda/Agenda-Light.eot'); 
+  src: url('../fonts/agenda/Agenda-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/agenda/Agenda-Light.woff2') format('woff2'), 
+       url('../fonts/agenda/Agenda-Light.woff') format('woff'), 
+       url('../fonts/agenda/Agenda-Light.ttf')  format('truetype'), 
+       url('../fonts/agenda/Agenda-Light.svg#svgFontName') format('svg'); 
+}
